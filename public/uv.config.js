@@ -1,0 +1,1 @@
+self.__uv$config={bare:"https://bare-server.url",prefix:"/service/",encodeUrl:Ultraviolet.codec.xor.encode,decodeUrl:Ultraviolet.codec.xor.decode,handler:"/uv.handler.js",bundle:"/uv.bundle.js",config:"/uv.config.js",sw:"/uv.sw.js"};
