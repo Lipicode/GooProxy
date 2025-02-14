@@ -31,7 +31,7 @@ h1{font-size:26px;animation:fadeIn 1s ease-in-out}
 <button onclick="startProxy()">Go</button>
 </div>
 <script>
-new Typed("#typed-text",{strings:["Unblock the internet.","Fast & Secure Proxy.","Built with Ultraviolet."],typeSpeed:50,loop:true});
+new Typed("#typed-text",{strings:["Unblock the internet.","Fast & Secure Proxy.","Built with Ultraviolet.", " this was a bih to make 😢", "don't do fentanyl nor cocaine kids!"],typeSpeed:50,loop:true});
 particlesJS("particles-js",{particles:{number:{value:100},size:{value:3},move:{speed:1}},interactivity:{events:{onhover:{enable:true,mode:"repulse"}}}});
 function startProxy(){let url=document.getElementById("urlInput").value.trim();if(!url.startsWith("http"))url="https://"+url;window.location.href="/service/uv.sw.js?url="+encodeURIComponent(url);}
 document.querySelector("button").addEventListener("mouseover",()=>gsap.to("button",{scale:1.05,duration:0.2}));
