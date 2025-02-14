@@ -1,0 +1,10 @@
+{
+  "name": "gooproxy",
+  "version": "1.0.0",
+  "description": "A fast and optimized web proxy using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
