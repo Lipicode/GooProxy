@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{console.log("UV.js loaded.");let input=document.getElementById("urlInput");if(input){input.addEventListener("input",()=>{let v=input.value.trim();if(!v.startsWith("http://")&&!v.startsWith("https://")&&v!=="")input.value="https://"+v;});}});
